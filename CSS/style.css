@@ -98,5 +98,55 @@ span{
 }
 .nav-cart span{
     font-size: 0.85rem;
-    font-weight: 600;
+    font-weight: 700;
+}
+
+/* Panel Section */
+
+.panel{
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color:#222f3d ;
+    align-items: center;
+    color: white;
+}
+.panel-ops p{
+    display: inline;
+    margin-left: 20px;
+}
+.panel-ops{
+    width: 70%;
+    font-size: 0.85rem;
+}
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 800;
+}
+
+/* hero- section======= */
+
+.hero-section{
+    background-image: url(../images/hero_image.jpg);
+    height: 380px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-msg{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom: 30px;
+    
+    
+}
+.hero-msg a{
+    color: #007185;
 }
